@@ -1,0 +1,239 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+* {
+    font-family: "Work Sans", Helvetica, Arial, sans-serif !important;
+}
+html,body{
+    position: relative;
+    height: 100%; width: 100%;
+    overflow: auto;
+    color: #e2e2e2;
+}
+body {
+    background: rgba(0,0,0,.8);
+}
+a:hover{
+    text-decoration: none;
+}
+a#link{
+    color: #e2e2e2;
+}
+a#link:hover{
+    color: #f3f3f3;
+}
+.navbar{
+    border-radius: 0 !important;
+    background: rgba(4,4,4,.99);
+    border: none !important;
+}
+
+section#navbar ul.navbar-nav{
+    padding: 1em 0;
+}
+section#navbar ul.navbar-nav>li>a{
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    padding: .5em 1em;
+    margin: 0;
+}
+
+section#navbar ul.navbar-nav>li>a:hover{
+    color: rgb(37,203,245);
+}
+a.navbar-brand{
+    color: #FFF !important; font-family:"Lato", Helvetica, Arial, sans-serif;font-weight: 300;
+
+    height: auto;
+    padding: .25em 1em;
+    margin: .75em 0 0 1em;
+}
+a.navbar-brand>span{color: rgb(37,203,245) !important;}
+a#cart-dragger{padding: .25em 0 0 0 !important;}
+a#cart-dragger>i{font-size: 2em;  padding: 0 .5em !important;}
+
+div#cart-window-cover{
+    position: fixed;
+    top :0 ; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,.4);
+    display: none;
+    z-index: 999999998;
+}
+aside#cart-window{
+    position: fixed;
+    top :0; right: 300px; width: 300px; height: 100%;
+    background: rgba(0,0,0,.9);
+    color: #e4e4e4;
+    z-index: 999999999;
+}
+.font-light{font-weight: 300 !important;}
+.text-light{color: #FFF !important;}
+.text-dark{color: #222 !important;}
+aside#cart-window .cart-content{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.vertical-center{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#homepage-news-grid img{
+    width: 100%;
+    border: 4px solid rgba(255,255,255,.87);
+}
+.small-set{
+    margin-top: 15px;
+}
+
+#press-media-parallex{
+    margin: 20px 0 0 0 !important;
+    padding: 0 !important;
+    background: url("http://uelectrics.com/wp-content/themes/truemag/images/press-media-page-header.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#press-media{
+    margin: 0;
+    background: rgba(3,3,3,.8);
+}
+
+#home-video video{
+    width: 100%;
+    position: fixed;
+    margin: 0 !important;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+#home-cover{
+    padding: 80px 0;
+    color: #FFFFFF;
+    position: relative;
+    width: 100%;
+}
+#home-cover>div.profile{
+    z-index: 11 !important;
+}
+
+#home-cover a{
+    font-size: 2em; padding: 0 6px;
+    color: #FFFFFF;
+}
+#home-cover a:hover{color: #dddddd;}
+
+.btn-white{
+    background: transparent;
+    border-radius: 0;
+    font-size: 1.1em !important;
+    padding: 7px 15px !important;
+    border: 2px solid #FFF !important;
+    color: #FFF !important;
+}
+.btn-white:hover{background: #FFFFFF !important; color: #000000 !important;}
+
+#profile-pic{border-radius: 50%; width: 200px; height: 200px; border: 5px solid #FFF;}
+.home-cover-box{
+    position: absolute;
+    max-width: 250px;
+    border: 1px solid #e4e4e4;
+    padding: 20px;
+    top:0%;
+    left: 20%;
+    display: inline-block;
+    z-index: 10 !important;
+}
+
+.home-cover-box:hover{background: rgba(255,255,255,.5); color: #000}
+.home-cover-box .title{font-size: .9em; display: block}
+.home-cover-box .subtitle{font-size: .6em; display: block}
+
+#testimonials{
+    background: url("../images/testimonials.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.border-me{
+    display: inline-block;
+}
+.border-me:before,
+.border-me:after{
+    content: "\2014\2014\2014";
+    display: inline-block;
+    letter-spacing: -.1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#testimonials *{color: #444}
+
+
+.owl-dots {padding: 20px 0}
+.owl-dots .owl-dot{width: 30px; background: #FFFFFF; display: inline-block; padding: 2px; margin: 0 5px; border: 1px solid #444}
+.owl-dots .owl-dot.active{background: #444}
+
+form{
+    background: rgba(255,255,255,.8);
+    padding: 20px;
+}
+hr.skinny{
+    padding: 0;
+    margin: 0;
+    border-color: #587095;
+}
+.froala-view.froala-element.f-basic{
+    min-height: 300px !important;
+}
+.mar55{margin: 5px}
+.mar50{margin: 5px 0px}
+.mar05{margin: 0px 5px}
+
+div.well{
+    background-color: #ffffff;
+    border-radius: 0;
+    -webkit-box-shadow: 0 5px 7px #999999;
+    box-shadow: 0 5px 7px #999999;
+}
+
+div.well h4{
+    color: #1b6d85;
+}
+
+
+
+#shortened-link-input {
+  background: none;
+  border: 0;
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+#shortened-link-input:focus {
+  outline: 0;  
+}
+
+
+.text-gray {
+  color: #999;
+}
+.text-gray:hover {
+  color: #aaa;
+}
+
+a.dashed {    
+  border-bottom: 1px dashed;
+}
+
